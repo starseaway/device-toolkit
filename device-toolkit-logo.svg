@@ -58,7 +58,7 @@
 
     <text x="300" y="220" font-family="Comic Sans MS, Arial, sans-serif" font-size="70" font-weight="bold"
         fill="#2F80ED" stroke="#1A73E8" stroke-width="1" text-anchor="middle" alignment-baseline="middle">
-        Device Core
+        Device Toolkit
     </text>
 
 </svg>
