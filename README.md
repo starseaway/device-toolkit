@@ -4,6 +4,10 @@
   <img src="device-toolkit-logo.svg" width="500" alt="device-toolkit-logo">
 </div>
 
+![Version](https://img.shields.io/badge/version-2.0.1-blue)
+![License](https://img.shields.io/badge/license-Apache%202.0-green)
+![API](https://img.shields.io/badge/API-19%2B-brightgreen)
+
 ## 一、模块简介
 
 Device Toolkit 是一个专注于 Android 设备能力封装的库，整合了日常开发中高频使用的设备相关的逻辑功能（屏幕密度、设备信息、存储、系统状态、网络、电池等），提供统一入口，开箱即用。
@@ -31,13 +35,13 @@ maven {
 ### 2. 在 `build.gradle` (Module 级) 中添加依赖：
 ```groovy
 dependencies {
-    implementation 'com.github.starseaway:device-toolkit:2.0.0'
+    implementation 'com.github.starseaway:device-toolkit:2.0.1'
 }
 ```
 
 ```kotlin
 dependencies {
-    implementation("com.github.starseaway:device-toolkit:2.0.0")
+    implementation("com.github.starseaway:device-toolkit:2.0.1")
 }
 ```
 
@@ -211,6 +215,9 @@ if (result.result == 0) {
 ```
 
 ## 六、版本变更记录
+
+### V2.0.1 (2026-03-31)
+- build: 修改 agp 构建版本
 
 ### V2.0.0 (2026-03-27)
 - 调整整体目录结构
