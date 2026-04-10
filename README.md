@@ -4,7 +4,7 @@
   <img src="device-toolkit-logo.svg" width="500" alt="device-toolkit-logo">
 </div>
 
-![Version](https://img.shields.io/badge/version-2.0.1-blue)
+![Version](https://img.shields.io/badge/version-2.0.2-blue)
 ![License](https://img.shields.io/badge/license-Apache%202.0-green)
 ![API](https://img.shields.io/badge/API-19%2B-brightgreen)
 
@@ -35,13 +35,13 @@ maven {
 ### 2. 在 `build.gradle` (Module 级) 中添加依赖：
 ```groovy
 dependencies {
-    implementation 'com.github.starseaway:device-toolkit:2.0.1'
+    implementation 'com.github.starseaway:device-toolkit:2.0.2'
 }
 ```
 
 ```kotlin
 dependencies {
-    implementation("com.github.starseaway:device-toolkit:2.0.1")
+    implementation("com.github.starseaway:device-toolkit:2.0.2")
 }
 ```
 
@@ -215,6 +215,9 @@ if (result.result == 0) {
 ```
 
 ## 六、版本变更记录
+
+### V2.0.2 (2026-04-10)
+- 重新打包
 
 ### V2.0.1 (2026-03-31)
 - build: 修改 agp 构建版本
